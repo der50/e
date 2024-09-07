@@ -1,0 +1,14 @@
+name: Auto Reload Page
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # This runs the job every 5 minutes
+
+jobs:
+  reload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Reload Page
+        run: curl -X GET https://oknmx.blogspot.com/p/iframes-glitch.html?m=1
