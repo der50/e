@@ -1,4 +1,4 @@
-name: Auto Reload Page
+name: Auto Reload Pages
 
 on:
   schedule:
@@ -10,5 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Reload Page
-        run: curl -X GET https://oknmx.blogspot.com/p/iframes-glitch.html?m=1
+      - name: Reload Pages
+        run: |
+          curl -X GET https://yourwebsite1.com
+          curl -X GET https://yourwebsite2.com
+          curl -X GET https://yourwebsite3.com
