@@ -12,6 +12,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Reload Pages
         run: |
-          curl -X GET https://yourwebsite1.com
-          curl -X GET https://yourwebsite2.com
-          curl -X GET https://yourwebsite3.com
+          curl -X GET https://dapper-harsh-talos.glitch.me/
+          curl -X GET https://daffodil-golden-citrine.glitch.me/
+          curl -X GET https://muddy-honorable-buffer.glitch.me/
