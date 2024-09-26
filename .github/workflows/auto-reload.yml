@@ -15,3 +15,5 @@ jobs:
           curl -X GET https://dapper-harsh-talos.glitch.me/
           curl -X GET https://daffodil-golden-citrine.glitch.me/
           curl -X GET https://muddy-honorable-buffer.glitch.me/
+          curl -X GET https://ludicrous-jelly-chameleon.glitch.me/
+          
